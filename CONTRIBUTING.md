@@ -1,11 +1,11 @@
-# Regras de contribuição (IC-GC-03, v1.0)
+# Regras de contribuição (IC-GC-03, v1.1)
 
-Responsável: Alexandre Tavares (Gerente de Configuração)
+Responsável: Anna Witória Paulino (Gerente de Configuração), conforme a RFC-004
 
 ## 1. Branches
 - `main`: versão estável. Depois do commit inicial, só recebe alterações por Pull Request (PR).
 - Uma branch por integrante, com o próprio nome:
-  `alexandre-tavares` · `anna-witoria` · `ana-carvalho` · `thalita-hipolito` · `waleska-lima`
+  `anna-witoria` · `alexandre-schilli` · `ana-carvalho` · `thalita-hipolito` · `waleska-lima`
 - Antes de começar uma tarefa, atualize sua branch com a `main`:
   ```bash
   git checkout main && git pull
@@ -28,7 +28,7 @@ Responsável: Alexandre Tavares (Gerente de Configuração)
   - **Approve** quando está tudo certo;
   - **Request changes**, com um comentário dizendo o que corrigir, quando algo está errado.
 - O que conferir na revisão: o conteúdo da parte alterada, a versão no **Histórico de Revisões** e a linha do IC na **Planilha de Controle de ICs**.
-- Com as 4 aprovações, o Gerente de Configuração faz o merge. A `main` fica protegida no GitHub para não aceitar merge sem as revisões.
+- Todo PR exige o **Approve de Alexandre Schilli**, revisor obrigatório definido em `.github/CODEOWNERS`. Com as aprovações, a Gerente de Configuração faz o merge. A `main` fica protegida no GitHub para não aceitar merge sem as revisões.
 - Se mudar um documento, atualize também a **versão na Planilha de Controle de ICs** e o **Histórico de Revisões** do documento.
 
 ## 4. Arquivos .docx e .xlsx

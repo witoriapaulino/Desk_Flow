@@ -20,8 +20,8 @@ O DeskFlow é uma API de central de serviços de TI. Usuários abrem chamados, t
 
 | Integrante | Branch | Papel |
 |---|---|---|
-| Alexandre Tavares | `alexandre-tavares` | Gerente de Projeto e Gerente de Configuração |
-| Anna Witória Paulino | `anna-witoria` | Proprietária do repositório · Analista de Requisitos |
+| Anna Witória Paulino | `anna-witoria` | Proprietária do repositório · Gerente de Projeto e Gerente de Configuração |
+| Alexandre Schilli | `alexandre-schilli` | Analista de Requisitos e Modelagem de Dados · revisor obrigatório (CODEOWNERS) |
 | Ana Carvalho | `ana-carvalho` | Desenvolvedora backend (RF01, RF03, OpenAPI) |
 | Thalita Hipólito | `thalita-hipolito` | Desenvolvedora backend (RF04, RF05, Postman) |
 | Waleska Lima | `waleska-lima` | Qualidade e segurança (testes, RF02) |

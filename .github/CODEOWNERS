@@ -1,0 +1,4 @@
+# CODEOWNERS do DeskFlow (IC-GC-03, junto com o CONTRIBUTING)
+# Todo Pull Request para a main exige a revisão e a aprovação do revisor abaixo,
+# por decisão da equipe em 24/11/2026 (registrada no PCM com a RFC-004).
+* @Alexandre-Schilli
