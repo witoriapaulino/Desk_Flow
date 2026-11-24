@@ -1,4 +1,12 @@
-# CODEOWNERS do DeskFlow (IC-GC-03, junto com o CONTRIBUTING)
-# Todo Pull Request para a main exige a revisão e a aprovação do revisor abaixo,
-# por decisão da equipe em 24/11/2026 (registrada no PCM com a RFC-004).
-* @Alexandre-Schilli
+# CODEOWNERS do DeskFlow (IC-GC-03, v1.2, junto com o CONTRIBUTING)
+#
+# Gitflow com revisão por mais de um code owner (decisão da equipe em 24/11/2026):
+# todos os integrantes são code owners. A regra de proteção do GitHub exige,
+# em todo Pull Request para a main ou a develop, pelo menos 2 aprovações,
+# e a aprovação de um code owner. Como todo revisor possível é code owner,
+# nenhum PR entra sem a validação de mais de um code owner.
+# Quem abre o PR não conta como aprovador do próprio PR.
+#
+# Anna Witória Paulino (GP/GC) · Alexandre Schilli (Analista de Requisitos)
+# Ana Carvalho · Thalita Hipólito · Waleska Lima
+* @witoriapaulino @Alexandre-Schilli @anasluiza @thalitahipolito05-lang @wall002
