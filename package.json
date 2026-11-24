@@ -4,6 +4,9 @@
   "description": "DeskFlow — Central de Serviços de TI (Projeto Integrador de Gerência de Configuração)",
   "private": true,
   "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "nest build",
     "start": "node dist/main.js",
@@ -41,7 +44,7 @@
     "@nestjs/testing": "^11.2.9",
     "@types/jest": "^29.5.14",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^22.0.0",
+    "@types/node": "^26.6.6",
     "@types/pg": "^8.11.10",
     "@types/supertest": "^6.0.3",
     "jest": "^29.7.0",

@@ -8,7 +8,7 @@ O DeskFlow é uma API de central de serviços de TI. Usuários abrem chamados, t
 
 | Camada | Tecnologia |
 |---|---|
-| API | Node.js 20 + NestJS (TypeScript) |
+| API | Node.js 26 LTS + NestJS (TypeScript) |
 | Banco de dados | PostgreSQL 16 + Prisma ORM (`db/schema.prisma`, `db/migrations/`) |
 | Segurança (RF02) | JWT + guards de perfil (usuário, técnico, gestor) |
 | Contrato da API | OpenAPI gerado pelo `@nestjs/swagger` → `docs/api/openapi.yaml` |
@@ -71,7 +71,7 @@ Fonte editável (IC-DOC-07): `docs/arquitetura/DeskFlow_Arquitetura.drawio`. Abr
 
 ## Como rodar a API
 
-Pré-requisitos: Node.js 20+ e PostgreSQL 16 (local ou via Docker).
+Pré-requisitos: Node.js 26 LTS (versão em `.nvmrc`; mínimo 22) e PostgreSQL 16 (local ou via Docker).
 
 ```bash
 cp .env.example .env            # ajuste a DATABASE_URL
